@@ -1,0 +1,52 @@
+
+body {
+  color: green;
+  background: black;
+}
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: red;
+  margin-top: 60px;
+}
+
+p {
+  font-family: sans-serif;
+  color: blue;
+  
+}
+
+.glow {
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+  }
+  @-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
+#fav {
+  position: absolute; 
+  top: 120%; 
+  left: 50%; 
+  transform: translate(-50%, -50%);
+}
+
+#myCanvas {
+      
+    background-color: #ff0000; /* red */
+}
+/* YouTube video */
+.glow-video {
+  box-shadow: 0 0 20px rgb(135,206,250);
+}
